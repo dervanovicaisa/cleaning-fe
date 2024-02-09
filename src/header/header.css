@@ -1,0 +1,8 @@
+.nav-bar-bg {
+  background-color: var(--main-bg);
+}
+.header-nav:hover,
+.header-nav.active {
+  padding-bottom: 2px !important;
+  border-bottom: 3px solid var(--purple);
+}
