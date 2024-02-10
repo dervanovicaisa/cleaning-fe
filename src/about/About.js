@@ -3,7 +3,7 @@ import "./about.css";
 import UmImage from "../assets/um.webp";
 function About() {
   return (
-    <div id="Um">
+    <div id="Um" data-section>
       <div className="py-5 w-90 m-auto">
         <Row className="justify-content-end gap-5 py-3">
           <Col>

@@ -31,7 +31,7 @@ function Services() {
     setActiveCard(activeCard);
   };
   return (
-    <div id="Dienstleistungen">
+    <div id="Dienstleistungen" data-section>
       <div className="d-flex align-items-center justify-content-around pb-5">
         <div
           className="arrow-icons arrow-icons-left text-center"

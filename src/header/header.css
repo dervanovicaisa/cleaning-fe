@@ -6,3 +6,8 @@
   padding-bottom: 2px !important;
   border-bottom: 3px solid var(--purple);
 }
+#header {
+  position: fixed;
+  top: 0;
+  z-index: 2;
+}

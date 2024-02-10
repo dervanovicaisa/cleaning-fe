@@ -11,7 +11,7 @@ function App() {
     <div id="app">
       <Header />
       {/* home */}
-      <Row className="border-bottom" id="Heim">
+      <Row className="border-bottom pt-sticky" id="Heim" data-section>
         <Col lg={6} className="left-text px-0">
           <div className="left-description pt-5 pb-4">
             <div className="m-auto w-75 d-grid gap-4">

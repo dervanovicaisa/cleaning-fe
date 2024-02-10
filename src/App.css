@@ -25,3 +25,6 @@
 .purple-bg {
   background-color: var(--purple);
 }
+.pt-sticky {
+  padding-top: 125px;
+}
