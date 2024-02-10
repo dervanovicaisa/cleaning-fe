@@ -34,7 +34,7 @@ function Header() {
   return (
     <Navbar id="header" className="nav-bar-bg w-100 px-5 d-block border-bottom">
       <Row className="align-items-center justify-content-between">
-        <Col lg={4} md={12} className="text-sm-center">
+        <Col lg={4} md={12}>
           <Navbar.Brand href="#home">
             <Image src={Logo} className="img-responsive w-50" />
           </Navbar.Brand>
