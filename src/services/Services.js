@@ -36,12 +36,12 @@ function Services() {
       <Row className="align-items-center justify-content-around pb-5 w-90 m-auto">
         <Col
           lg={2}
-          className="arrow-icons arrow-icons-left text-center d-lg-block d-md-none"
+          className="arrow-icons arrow-icons-left text-center d-lg-block d-none"
           onClick={() => slideLeft()}
         >
           <ChevronLeft className="arrow-icon-left" size={15} />
         </Col>
-        <Col className="d-lg-block d-md-none d-sm-none">
+        <Col className="d-lg-block d-none">
           <Row className="align-items-center justify-content-center pt-5 pb-3 carousel">
             {activeCard === 3 ? (
               <Col>
@@ -112,8 +112,8 @@ function Services() {
             )}
           </Row>
         </Col>
-        <Col className="d-xl-none d-lg-none d-md-block d-sm-block">
-          <Row className="align-items-center justify-content-center gap-lg-0 gap-md-3 gap-sm-3 pt-5 pb-3 carousel">
+        <Col className="d-md-block d-lg-none">
+          <Row className="align-items-center justify-content-center gap-3  pb-3 carousel">
             <Col>
               <CardComponent
                 title="Winterdienst"
@@ -172,7 +172,7 @@ function Services() {
         </Col>
         <Col
           lg={2}
-          className="arrow-icons arrow-icons-right text-center d-lg-block d-md-none"
+          className="arrow-icons arrow-icons-right text-center d-lg-block d-none"
           onClick={() => slideRight()}
         >
           <ChevronRight size={15} className="arrow-icon-right" />

@@ -5,7 +5,7 @@ const Contact = () => {
   return (
     <div className="contact3 py-5" id="Kontakt" data-section>
       <Container>
-        <Row>
+        <Row className="gap-lg-0 gap-2">
           <Col lg={6}>
             <div className="card-shadow">
               <Image src={ContactImg} fluid />

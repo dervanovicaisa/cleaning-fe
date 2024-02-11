@@ -5,7 +5,7 @@ function About() {
   return (
     <div id="Um" data-section>
       <div className="py-5 w-90 m-auto">
-        <Row className="justify-content-end gap-5 py-3">
+        <Row className="justify-content-end gap-lg-5 gap-2 py-3">
           <Col>
             <Row className="gap-3 py-2">
               <Col>
