@@ -37,7 +37,7 @@ function About() {
               </Col>
             </Row>
           </Col>
-          <Col lg={8}>
+          <Col lg={8} md={12}>
             <h2>Unser Reinigungsdienst</h2>
             <p>
               Unser Reinigungsdienst ist darauf spezialisiert, hochwertige
@@ -48,7 +48,7 @@ function About() {
               Umgebung zu schaffen, damit Sie sich auf das Wesentliche
               konzentrieren können.
             </p>
-            <Image src={UmImage} className="img-responsive" />
+            <Image src={UmImage} className="img-responsive w-100" />
           </Col>
         </Row>
         <Row>

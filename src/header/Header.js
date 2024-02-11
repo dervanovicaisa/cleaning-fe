@@ -34,13 +34,17 @@ function Header() {
   return (
     <Navbar id="header" className="nav-bar-bg w-100 px-5 d-block border-bottom">
       <Row className="align-items-center justify-content-between">
-        <Col lg={4} md={12}>
+        <Col
+          lg={4}
+          md={12}
+          className="text-lg-start text-md-center text-xs-center"
+        >
           <Navbar.Brand href="#home">
             <Image src={Logo} className="img-responsive w-50" />
           </Navbar.Brand>
         </Col>
         <Col lg={8} md={12}>
-          <Nav className="d-flex gap-3 justify-content-end">
+          <Nav className="d-flex gap-3 justify-content-lg-end justify-content-md-center justify-content-sm-center">
             <Nav.Link
               href="#Heim"
               className={
