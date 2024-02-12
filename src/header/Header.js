@@ -6,7 +6,6 @@ import { List } from "react-bootstrap-icons";
 function Header() {
   const [activeLink, setActiveLink] = useState("Heim");
   const observer = useRef(null);
-
   useEffect(() => {
     observer.current = new IntersectionObserver(
       (entries) => {
@@ -38,7 +37,6 @@ function Header() {
       observer.current.disconnect();
     };
   }, []);
-
   return (
     <Navbar
       id="header"
@@ -75,7 +73,7 @@ function Header() {
               <List />
             </Dropdown.Toggle>
 
-            <Dropdown.Menu align="end">
+            <Dropdown.Menu align="end" className="px-3">
               {["Heim", "Um", "Dienstleistungen", "Kontakt"].map((section) => (
                 <NavLink
                   key={section}

@@ -15,9 +15,5 @@
   display: none;
 }
 #dropdown-basic-button ~ .dropdown-menu {
-  display: flex;
-  align-items: baseline;
-  flex-direction: column;
-  gap: 5px;
-  padding: 5px 15px;
+  line-height: 2;
 }

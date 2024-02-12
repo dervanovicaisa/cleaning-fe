@@ -3,7 +3,7 @@ import "./card.css";
 
 function CardComponent({ title, text, img, goTo, linkText, activeCard }) {
   return (
-    <Card className="custom-card w-100 mx-0 mx-lg-3">
+    <Card className="custom-card w-100 mx-0 mx-lg-3 h-100">
       <Card.Img variant="top" className="card-image-max" src={img} />
       <Card.Body>
         <Card.Link>
