@@ -1,8 +1,6 @@
 .card-text-max {
-  max-height: 200px;
-  height: 165px;
-  text-overflow: ellipsis;
-  overflow: hidden;
+  max-height: 300px;
+  height: 250px;
 }
 
 .custom-card.card {
@@ -10,14 +8,15 @@
   padding: 24px;
   border-radius: 13px;
   position: relative;
-  max-width: 380px;
-  width: 380px;
+  /* max-width: 380px; */
+  /* width: 380px; */
   margin: 0 12px;
   box-shadow: 0 10px 16px 0 #ebeeed;
   border: unset;
 }
 .custom-card.card .card-image-max {
   border-radius: 5px;
+  height: 268px;
 }
 .custom-card.card a {
   display: inline-block;

@@ -42,7 +42,7 @@ function Services() {
           <ChevronLeft className="arrow-icon-left" size={15} />
         </Col>
         <Col className="d-lg-block d-none">
-          <Row className="align-items-center justify-content-center pt-5 pb-3 carousel">
+          <Row className="align-items-center justify-content-center pt-5 pb-3 w-100 carousel">
             {activeCard === 3 ? (
               <Col>
                 <Row>
@@ -113,7 +113,7 @@ function Services() {
           </Row>
         </Col>
         <Col className="d-md-block d-lg-none">
-          <Row className="align-items-center justify-content-center gap-3  pb-3 carousel">
+          <Row className="align-items-center justify-content-center gap-3 pb-3 carousel">
             <Col>
               <CardComponent
                 title="Winterdienst"

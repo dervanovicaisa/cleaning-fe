@@ -11,3 +11,13 @@
   top: 0;
   z-index: 2;
 }
+#dropdown-basic-button.dropdown-toggle::after {
+  display: none;
+}
+#dropdown-basic-button ~ .dropdown-menu {
+  display: flex;
+  align-items: baseline;
+  flex-direction: column;
+  gap: 5px;
+  padding: 5px 15px;
+}

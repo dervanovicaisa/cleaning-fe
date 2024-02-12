@@ -4,8 +4,8 @@ import UmImage from "../assets/um.webp";
 function About() {
   return (
     <div id="Um" data-section>
-      <div className="py-5 w-90 m-auto">
-        <Row className="justify-content-end gap-lg-5 gap-2 py-3">
+      <div className="py-lg-5 py-2 w-90 m-auto">
+        <Row className="justify-content-end gap-lg-5 gap-2 py-3 flex-lg-row flex-column-reverse">
           <Col>
             <Row className="gap-3 py-2">
               <Col>

@@ -12,7 +12,7 @@ const Footer = () => {
               <h6 className="text-uppercase fw-bold mb-4">
                 Unsere Dienstleistungen
               </h6>
-              <Row className="m-auto">
+              <Row className="mx-auto">
                 <Col className="mb-4 px-0">
                   <p>
                     <a
@@ -68,7 +68,7 @@ const Footer = () => {
               </Row>
             </Col>
 
-            <Col lg="3" md="3" className="mb-4 m-auto">
+            <Col lg="3" md="3" className="mb-4 mx-auto">
               <h6 className="text-uppercase fw-bold mb-4">Nützliche Links</h6>
               <p>
                 <a
