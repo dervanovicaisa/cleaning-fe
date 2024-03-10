@@ -1,6 +1,6 @@
 import { Navbar, Nav, Image, Row, Col, Dropdown } from "react-bootstrap";
 import Logo from "../assets/logo-mini.png";
-import { useEffect, useRef, useState } from "react";
+import { useState } from "react";
 import "./header.css";
 import { List } from "react-bootstrap-icons";
 function Header() {
