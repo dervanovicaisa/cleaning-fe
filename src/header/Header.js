@@ -5,38 +5,38 @@ import "./header.css";
 import { List } from "react-bootstrap-icons";
 function Header() {
   const [activeLink, setActiveLink] = useState("Heim");
-  const observer = useRef(null);
-  useEffect(() => {
-    observer.current = new IntersectionObserver(
-      (entries) => {
-        entries.forEach((entry) => {
-          if (entry.isIntersecting) {
-            const targetId = entry.target.id;
-            setActiveLink(targetId);
+  // const observer = useRef(null);
+  // useEffect(() => {
+  //   observer.current = new IntersectionObserver(
+  //     (entries) => {
+  //       entries.forEach((entry) => {
+  //         if (entry.isIntersecting) {
+  //           const targetId = entry.target.id;
+  //           setActiveLink(targetId);
 
-            // Deactivate other active links
-            const activeLinks = document.querySelectorAll("a.active");
-            activeLinks.forEach((link) => {
-              if (link.hash !== `#${targetId}`) {
-                link.classList.remove("active");
-              }
-            });
-          }
-        });
-      },
-      { threshold: 0.5 }
-    ); // Adjust threshold as needed
+  //           // Deactivate other active links
+  //           const activeLinks = document.querySelectorAll("a.active");
+  //           activeLinks.forEach((link) => {
+  //             if (link.hash !== `#${targetId}`) {
+  //               link.classList.remove("active");
+  //             }
+  //           });
+  //         }
+  //       });
+  //     },
+  //     { threshold: 0.5 }
+  //   ); // Adjust threshold as needed
 
-    const sections = document.querySelectorAll("[data-section]");
-    sections.forEach((section) => {
-      observer.current.observe(section);
-    });
+  //   const sections = document.querySelectorAll("[data-section]");
+  //   sections.forEach((section) => {
+  //     observer.current.observe(section);
+  //   });
 
-    // Clean up observer on component unmount
-    return () => {
-      observer.current.disconnect();
-    };
-  }, []);
+  //   // Clean up observer on component unmount
+  //   return () => {
+  //     observer.current.disconnect();
+  //   };
+  // }, []);
   return (
     <Navbar
       id="header"

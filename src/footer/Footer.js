@@ -125,11 +125,8 @@ const Footer = () => {
 
       <div className="text-center p-4 bg-purple text-light">
         © 2024 Urheberrecht:
-        <a
-          className="text-reset fw-bold mx-2"
-          href="https://www.behance.net/aiadervanovi"
-        >
-          Aisa D.
+        <a className="text-reset fw-bold mx-2" href="#Heim">
+          M&M HADZAJLIC REINIGUND
         </a>
       </div>
     </footer>

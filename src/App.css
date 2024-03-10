@@ -13,6 +13,8 @@
 }
 .left-description {
   backdrop-filter: blur(7px);
+  overflow-y: auto;
+  overflow-x: hidden;
 }
 .paragraph.roboto-regular {
   color: var(--bs-secondary-color);
@@ -25,11 +27,15 @@
 .purple-bg {
   background-color: var(--purple);
 }
-.pt-sticky {
+/* .pt-sticky {
   padding-top: 125px;
+} */
+.right-image img {
+  width: -webkit-fill-available;
+  height: -webkit-fill-available;
 }
 @media only screen and (max-width: 600px) {
   .pt-sticky {
-    padding-top: 90px;
+    padding-top: 17px;
   }
 }

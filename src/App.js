@@ -14,7 +14,7 @@ function App() {
       <Row className="border-bottom pt-sticky" id="Heim" data-section>
         <Col lg={6} className="left-text px-0">
           <div className="left-description pt-0 pt-lg-5 pb-4">
-            <div className="m-auto w-75 d-grid gap-4">
+            <div className="m-auto w-75 d-grid gap-4 text-overflow">
               <h2 className="title roboto-medium">
                 WIR BIETEN ALLE ARTEN von REINIGUNGEN an
               </h2>
@@ -42,7 +42,7 @@ function App() {
           </div>
         </Col>
         <Col lg={6} md={12} className="right-image px-0">
-          <Image className="img-responsive w-100" src={CleanImg} />
+          <Image className="img-responsive" src={CleanImg} />
         </Col>
       </Row>
       {/* about us */}
