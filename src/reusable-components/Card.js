@@ -6,10 +6,13 @@ function CardComponent({ title, text, img, goTo, linkText, activeCard }) {
     <Card className="custom-card w-100 mx-0 mx-lg-3 h-100">
       <Card.Img variant="top" className="card-image-max" src={img} />
       <Card.Body>
-        <Card.Link>
+        <Card.Link className="m-auto p-1 text-center w-100">
           <Card.Title>{title}</Card.Title>
         </Card.Link>
-        <Card.Text className="card-text-max">{text}</Card.Text>
+        <hr />
+        <div className="card-body-inner">
+          <Card.Text className="card-text-max">{text}</Card.Text>
+        </div>
       </Card.Body>
     </Card>
   );

@@ -8,7 +8,7 @@ function About() {
         <Row className="justify-content-end gap-lg-5 gap-2 py-3 flex-lg-row flex-column-reverse">
           <Col>
             <Row className="gap-3 py-2">
-              <Col>
+              <Col lg={12}>
                 <h3>Qualität und Zuverlässigkeit</h3>
                 <p>
                   Qualität und Zuverlässigkeit: Unser Unternehmen zeichnet sich
@@ -22,7 +22,7 @@ function About() {
                   für unsere Dienstleistungen entscheiden.
                 </p>
               </Col>
-              <Col>
+              <Col lg={12}>
                 <h3> Maßgeschneiderte Lösungen</h3>
                 <p>
                   Maßgeschneiderte Lösungen: Wir verstehen, dass jeder Kunde
@@ -37,7 +37,7 @@ function About() {
               </Col>
             </Row>
           </Col>
-          <Col lg={8} md={12}>
+          <Col xxl={8} xl={8} lg={12} md={12}>
             <h2>Unser Reinigungsdienst</h2>
             <p>
               Unser Reinigungsdienst ist darauf spezialisiert, hochwertige

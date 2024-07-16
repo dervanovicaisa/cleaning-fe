@@ -40,10 +40,10 @@ function Header() {
   return (
     <Navbar
       id="header"
-      className="nav-bar-bg w-100 px-lg-5 px-2 d-block border-bottom"
+      className="nav-bar-bg w-100 px-lg-5 px-md-5 px-sm-2 d-block border-bottom"
     >
       <Row className="align-items-center justify-content-between d-lg-flex d-md-flex d-none">
-        <Col lg={4} md={4} className="text-lg-start text-center">
+        <Col lg={4} md={4} className="text-start">
           <Navbar.Brand href="#home">
             <Image src={Logo} className="img-responsive w-50" />
           </Navbar.Brand>

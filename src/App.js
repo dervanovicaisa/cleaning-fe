@@ -11,14 +11,28 @@ function App() {
     <div id="app">
       <Header />
       {/* home */}
-      <Row className="border-bottom pt-sticky" id="Heim" data-section>
-        <Col lg={6} className="left-text px-0">
-          <div className="left-description pt-0 pt-lg-5 pb-4">
-            <div className="m-auto w-75 d-grid gap-4 text-overflow">
+      <Row className="border-bottom" id="Heim">
+        <Col
+          xxl={6}
+          xl={6}
+          lg={12}
+          md={12}
+          sm={12}
+          className="m-auto py-xxl-0 py-xl-0 py-lg-5 py-md-5 py-sm-5 inner-bg"
+        >
+          <Row className="gap-4 mx-xxl-5 mx-xl-5 mx-lg-5 mx-md-3 mx-sm-3">
+            <Col
+              xxl={12}
+              xl={12}
+              lg={12}
+              md={12}
+              sm={12}
+              className="text-overflow"
+            >
               <h2 className="title roboto-medium">
                 WIR BIETEN ALLE ARTEN von REINIGUNGEN an
               </h2>
-              <p className="paragraph roboto-regular pb-0 mb-1">
+              <p className="paragraph roboto-regular mb-1 d-xxl-block d-xl-block d-lg-block d-md-none d-sm-none">
                 Willkommen bei{" "}
                 <span className="roboto-medium"> M&M HADZAJLIC REINIGUND </span>
                 , wo Sauberkeit und Exzellenz Hand in Hand gehen! Unsere
@@ -35,14 +49,31 @@ function App() {
                 um mehr über unsere Dienstleistungen zu erfahren und Ihren
                 Termin zu vereinbaren!
               </p>
-              <Button href="#Um" className="purple-bg">
+              <p className="text-left roboto-regular mb-1 d-xxl-none d-xl-none d-lg-none d-md-block d-sm-block">
+                Willkommen bei{" "}
+                <span className="roboto-medium"> M&M HADZAJLIC REINIGUND </span>
+                , wo Sauberkeit und Exzellenz Hand in Hand gehen! Unsere
+                professionellen Reinigungsdienstleistungen sind darauf
+                ausgerichtet, Ihre Erwartungen zu übertreffen und makellose
+                Räume in Ihrem Zuhause oder Büro zu schaffen. Mit einem
+                engagierten Team von Fachleuten bieten wir akribische
+                Reinigungsdienste mit hochwertigen Materialien und Techniken.
+                Kontaktieren Sie uns noch heute, um mehr über unsere
+                Dienstleistungen zu erfahren und Ihren Termin zu vereinbaren!
+              </p>
+            </Col>
+            <Col xxl={12} xl={12} lg={12} md={12} sm={12}>
+              <Button href="#Um" className="purple-bg w-100">
                 LERNEN SIE
               </Button>
-            </div>
-          </div>
+            </Col>
+          </Row>
         </Col>
-        <Col lg={6} md={12} className="right-image px-0">
-          <Image className="img-responsive" src={CleanImg} />
+        <Col
+          lg={6}
+          className="px-0 d-xxl-block d-xl-blcok d-lg-none d-md-none d-sm-none"
+        >
+          <Image className="img-responsive w-100" src={CleanImg} />
         </Col>
       </Row>
       {/* about us */}

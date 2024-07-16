@@ -1,5 +1,7 @@
 @import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
 @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+@import url("./custom-bootstrap-breakpoints/custom-breakpoints.css");
+
 :root {
   --main-bg: #fdfcf8;
   --main-yellow: #f5ce60;
@@ -109,4 +111,24 @@ code {
 }
 .text-purple {
   color: var(--purple);
+}
+/* custom scrollbar */
+
+/* Custom scrollbar for Webkit browsers (Chrome, Safari) */
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+  border-radius: 6px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 6px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
 }

@@ -5,13 +5,7 @@
 .header-nav.active {
   padding-bottom: 2px !important;
   color: var(--dark-blue);
-  /* border-bottom: 3px solid var(--purple); */
 }
-/* #header {
-  position: fixed;
-  top: 0;
-  z-index: 2;
-} */
 #dropdown-basic-button.dropdown-toggle::after {
   display: none;
 }

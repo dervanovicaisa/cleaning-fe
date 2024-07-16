@@ -34,8 +34,14 @@
   width: -webkit-fill-available;
   height: -webkit-fill-available;
 }
-@media only screen and (max-width: 600px) {
-  .pt-sticky {
-    padding-top: 17px;
+@media only screen and (max-width: 1024px) {
+  #Heim {
+    background: url("../src/assets/cleaning-service-hero.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .inner-bg {
+    background: #ffffff9e;
+    backdrop-filter: blur(19px);
   }
 }
