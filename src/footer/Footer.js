@@ -124,7 +124,7 @@ const Footer = () => {
       </section>
 
       <div className="text-center p-4 bg-purple text-light">
-        © 2024 Urheberrecht:
+        © 2023 Urheberrecht:
         <a className="text-reset fw-bold mx-2" href="#Heim">
           M&M HADZAJLIC REINIGUND
         </a>
